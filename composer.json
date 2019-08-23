@@ -40,7 +40,8 @@
 	"humanmade/s3-uploads": "2.0.0-beta3",
 	"wpackagist-plugin/debug-bar": "0.9",
 	"wpackagist-plugin/really-simple-ssl": "3.2.5",
-	"wpackagist-plugin/imagify": "1.9.6"
+	"wpackagist-plugin/imagify": "1.9.6",
+	"wpackagist-plugin/autoptimize": "2.5.1"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -61,7 +62,8 @@
 		"wpackagist-plugin/all-in-one-seo-pack",
 		"wpackagist-plugin/debug-bar",
 		"wpackagist-plugin/really-simple-ssl",
-		"wpackagist-plugin/imagify"
+		"wpackagist-plugin/imagify",
+		"wpackagist-plugin/autoptimize"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme"
