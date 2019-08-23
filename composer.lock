@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1487c3c5d24e663d364b3b22a060725b",
+    "content-hash": "f9c1fbf11ec6efcadee09208ced176e7",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3688,6 +3688,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/debug-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/imagify",
+            "version": "1.9.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/imagify/",
+                "reference": "tags/1.9.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/imagify.1.9.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/imagify/"
         },
         {
             "name": "wpackagist-plugin/nginx-helper",
