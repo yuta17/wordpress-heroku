@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a0b72e7b3394f106cbcf2a5c680d5b9",
+    "content-hash": "5a60cc9da1de4927d5236e6c8cd171b8",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3778,24 +3778,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/tiny-compress-images/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-multibyte-patch",
-            "version": "2.8.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-multibyte-patch/",
-                "reference": "tags/2.8.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-multibyte-patch.2.8.2.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-multibyte-patch/"
         }
     ],
     "packages-dev": [
