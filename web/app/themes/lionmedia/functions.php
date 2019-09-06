@@ -5310,9 +5310,9 @@ function fit_posts_pagination( $args = array() ) {
  
     if ( $GLOBALS['wp_query']->max_num_pages > 1 ) {
         $args = wp_parse_args( $args, array(
-            'mid_size'           => 0,
-            'prev_text'          => 'PREV',
-            'next_text'          => 'NEXT',
+            'mid_size'           => 2,
+            'prev_text'          => '前へ',
+            'next_text'          => '次へ',
         ) );
  
         if ( isset( $args['type'] ) && 'array' == $args['type'] ) {
