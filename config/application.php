@@ -109,6 +109,7 @@ define('DB_PASSWORD', env('DB_PASSWORD'));
 define('DB_HOST', env('DB_HOST') ?: 'localhost');
 define('DB_CHARSET', 'utf8mb4');
 define('DB_COLLATE', '');
+define('WP_POST_REVISIONS', false);
 $table_prefix = env('DB_PREFIX') ?: 'wp_';
 
 /**
