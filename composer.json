@@ -42,7 +42,8 @@
 	"wpackagist-plugin/really-simple-ssl": "3.2.5",
 	"wpackagist-plugin/autoptimize": "2.5.1",
 	"wpackagist-plugin/tiny-compress-images": "3.2.0",
-	"wpackagist-plugin/wp-optimize": "3.0.11"
+	"wpackagist-plugin/wp-optimize": "3.0.11",
+	"wpackagist-plugin/wps-hide-login": "1.5.4.2"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -64,7 +65,8 @@
 		"wpackagist-plugin/really-simple-ssl",
 		"wpackagist-plugin/autoptimize",
 		"wpackagist-plugin/tiny-compress-images",
-		"wpackagist-plugin/wp-optimize"
+		"wpackagist-plugin/wp-optimize",
+		"wpackagist-plugin/wps-hide-login"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme"
